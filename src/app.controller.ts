@@ -16,12 +16,11 @@ export class AppController {
     for (let i = 0; i <= diff; i++) {
       years.push(String(date.getFullYear() - i));
     }
-    console.log(years);
     return {
       title: 'Nest App',
       header: 'Nest Header',
       message: 'Hello Nest',
-      years: years,
+      // years: years,
     };
   }
 }
